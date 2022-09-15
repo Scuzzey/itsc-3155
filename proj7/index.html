@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+
+        <input id="name-input" type="text" placeholder="Enter your name" /> <!--This is the text in the box that is replaced if I type in it.-->
+        <button id="my-button">Click Me</button><!--This creates the button with the click me text-->
+
+        <script>
+            var myButton = document.querySelector('#my-button'); //This line queues an action based on if/when the button was pushed?
+            var nameInput = document.querySelector('#name-input'); //This line stores the value of the input when the button was pushed?
+
+            myButton.addEventListener('click', function () { //When the button was pushed, set value of nameInput to whatever was in the box when the button was pushed
+            if (nameInput.value !== '') { //if the value in the box wasn't just a space, it will print Hello + the value
+                alert('Hello ' + nameInput.value);
+            }
+            });
+        </script>
+    </body>
+</html>

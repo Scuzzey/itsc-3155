@@ -1,0 +1,12 @@
+.main-title{
+    text-align:center;
+}
+
+body{
+    background-color:green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    margin-bottom:12px;
+}
